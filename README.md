@@ -13,6 +13,7 @@ This project uses Python3.
 
 The library [Pygame](https://www.pygame.org) is also used.
 
+
 To install pygame:
 ```
 pip install pygame
