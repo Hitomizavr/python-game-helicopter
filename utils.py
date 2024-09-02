@@ -1,0 +1,20 @@
+from random import randint as rand
+
+# рандомное получение True или False
+def randbool(r, mxr):
+    t = rand(0, mxr)
+    return(t <= r)
+
+# создание рандомных координат в поле (w, h)
+def randcell(w, h):
+    tw = rand(0, w - 1)
+    th = rand(0, h - 1)
+    return(th, tw)
+
+# рандомное смещение от точки (x, y)
+# 0 - вверх, 1 - направо, 2 - вниз, 3 - налево
+def randcell2(x, y):
+    moves = [(-1, 0), (0, 1), (1, 0), (0, -1)]
+    t = rand(0, 3)
+    dx, dy, = moves[t][0], moves[t][1]
+    return (x + dx, y + dy)
