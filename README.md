@@ -1,5 +1,6 @@
 # Python Game "Helicopter"
 !Temporarily the game runs correctly only in Windows and MacOS terminals!
+
 A terminal game with an emoji field where you have to put out trees from fire. 
 
 ## Installation
