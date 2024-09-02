@@ -1,13 +1,29 @@
 # Python Game "Helicopter"
+!Temporarily the game runs correctly only in Windows and MacOS terminals!
 A terminal game with an emoji field where you have to put out trees from fire. 
 
-## Install required libraries for the game to work
-1. Python version more >= 3
-2. Enter the command `pip install pygame`
-3. Enter the command `pip install pynput`
+## Installation
 
-### Version game
-- The game was developed using a version of Python. 3.12.5
+This project uses Python3. 
+
+The library [Pygame](https://www.pygame.org) is also used.
+
+To install pygame:
+```
+pip install pygame
+```
+
+The library [Pynput](https://pypi.org/project/pynput/) is also used.
+
+To install pynput:
+```
+pip install pynput
+```
+
+Simply run main.py in folder game:
+```
+python .\main.py
+```
 
 ## The essence of the game
 The main functionality is to extinguish a fire using a helicopter. To do this, you need to use a helicopter to fill a tank with water. Then fly to the fire pixel. During the game, the statistics of successfully extinguished trees and your health will be calculated.
