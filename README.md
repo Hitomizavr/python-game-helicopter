@@ -4,7 +4,7 @@ A terminal game with an emoji field where you have to put out trees from fire.
 ## Install required libraries for the game to work
 1. Python version more >= 3
 2. Enter the command `pip install pygame`
-3. Enter the comman `pip install pynput`
+3. Enter the command `pip install pynput`
 
 ### Version game
 - The game was developed using a version of Python. 3.12.5
