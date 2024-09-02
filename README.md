@@ -1,5 +1,5 @@
 # Python Game "Helicopter"
-!To run the game in the Windows terminal, you need the Windows Terminal program!
+**!To run the game in the Windows terminal, you need the Windows Terminal program!**
 
 The program [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=ru-ru&gl=RU) with full Unicode support.
 
