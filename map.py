@@ -10,7 +10,7 @@ from helicopter import Helicopter
 # 4 🏦 - апгрейд-шоп
 # 5 🔥 - огонь
 # 🚁 - вертолет
-# ☁️ облако
+# ⚪️☁️ облако
 # ⚡ гроза
 # 🛢️ tank
 # ❤️ здоровье (lives)
@@ -46,7 +46,7 @@ class Map:
             for ci in range(self.w):
                 cell = self.cells[ri][ci]
                 if (clouds.cells[ri][ci] == 1):
-                    print("☁️", end="")
+                    print("⚪️", end="")
                 elif (clouds.cells[ri][ci] == 2):
                     print("⚡", end="")
                 elif (helico.x == ri and helico.y == ci):
