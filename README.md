@@ -1,9 +1,12 @@
 # Python Game "Helicopter"
-!Temporarily the game runs correctly only in Windows and MacOS terminals!
+!To run the game in the Windows terminal, you need the Windows Terminal program!
+
+The program [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=ru-ru&gl=RU) with full Unicode support.
 
 A terminal game with an emoji field where you have to put out trees from fire. 
 
 ## Installation
+A console with full Unicode support is required to run the terminal game.
 
 This project uses Python3. 
 
@@ -25,6 +28,8 @@ Simply run main.py in folder game:
 ```
 python .\main.py
 ```
+
+Note: 
 
 ## The essence of the game
 The main functionality is to extinguish a fire using a helicopter. To do this, you need to use a helicopter to fill a tank with water. Then fly to the fire pixel. During the game, the statistics of successfully extinguished trees and your health will be calculated.
